@@ -1,5 +1,6 @@
 .zanah__header {
     display: flex;
+    flex-direction: row;
     
 }
 
@@ -118,7 +119,7 @@
 
 @media screen and (max-width: 1050px){
     .zanah__header {
-flex-direction: column;
+    flex-direction: column;
 
     }
 
@@ -172,3 +173,4 @@ flex-direction: column;
     }
     
 }
+

@@ -16,8 +16,16 @@ const Header = () => {
       </div>
 
       <div className="zanah__header-content__people">
-        <img src={people} />
+        <img src={people} alt='people' />
+        <p>1,600 people requesed access visit in the last 24 hrs </p>
       </div>
+     
+
+      <div className="zanah__header-image">
+      <img src={ai} alt='ai' />
+      </div>
+
+      
       </div>
       
     </div>

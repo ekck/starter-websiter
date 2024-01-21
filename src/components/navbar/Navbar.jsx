@@ -11,7 +11,7 @@ const Menu = () => (
 
          <p><a href="#zanah">What is Zanah</a></p>
 
-         <p><a href="#possibility">Tech Solutions</a></p>
+         <p><a href="#solutions">Tech Solutions</a></p>
 
          <p><a href="#features">Features</a></p>
          <p><a href="#blog"></a>Research</p>

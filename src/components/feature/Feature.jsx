@@ -3,7 +3,7 @@ import './feature.css';
 
 const Feature = ({ title, text }) => {
   return (
-    <div className='zanah__features-container__feature'>
+    <div className='zanah__features-container__feature' id=''>
       <div className='zanah__features-container__feature-title'>
         <div />
         <h1>{title}</h1>

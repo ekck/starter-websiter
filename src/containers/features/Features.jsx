@@ -21,7 +21,7 @@ const featuresData = [
 
 const Features = () => {
   return (
-    <div className='zanah__features section__padding'>
+    <div className='zanah__features section__padding'id='solutions'>
         <div className="zanah__features-heading">
           <h1 className="gradient__text">
             The time to apply technology into your life is now ,
@@ -31,7 +31,7 @@ const Features = () => {
         </div>
         <div className="zanah__features-container">
             {featuresData.map((item, index) =>(
-                <Feature />
+                <Feature title={item.title} text={item.text}/>
 
              ))}
         </div>

@@ -5,7 +5,7 @@ import ai from '../../assets/ai.png'
 
 const Header = () => {
   return (
-    <div className='zanah_header section__padding' id='home'>
+    <div className='zanah__header section__padding' id='home'>
       <div className='zanah__header-content'>
       
 
@@ -23,10 +23,12 @@ const Header = () => {
            <p>1,600 people requesed access visit in the last 24 hrs </p>
       </div>
       </div>
+      
 
       
       <div className="zanah__header-image">
       <img src={ai} alt='ai' />
+     
       </div>
       
 
